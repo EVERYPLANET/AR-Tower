@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TitleScreenUI : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class TitleScreenUI : MonoBehaviour
     public Vector2 spawnPosition;
     public float resetPosition;
     public float cloudSpeed;
+    public Color duskColor;
+    public Color dawnColor;
+    
 
 
     void Start()
@@ -41,4 +45,6 @@ public class TitleScreenUI : MonoBehaviour
             cloud2Rect.anchoredPosition = new Vector2(resetPosition, cloud2Rect.anchoredPosition.y);
         }
     }
+
+
 }
