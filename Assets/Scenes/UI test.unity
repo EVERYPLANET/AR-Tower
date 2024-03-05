@@ -1108,7 +1108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textStrings:
   - Help me get back to the top of my tower by clearing a path!
-  - Drag the tower to rotate it or walk around to change your perspective!
+  - Rotate the tower by walking around to change your perspective!
   - 'Tap or Hold different blocks to interact. '
   textBox: {fileID: 1178534027}
 --- !u!1 &1269915484
@@ -2153,7 +2153,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1931078492
 RectTransform:
   m_ObjectHideFlags: 0
