@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -32,7 +29,7 @@ public class PlaceObject : MonoBehaviour
         EnhancedTouch.EnhancedTouchSupport.Enable();
         EnhancedTouch.Touch.onFingerDown += FingerDown;
     }
-    
+
     private void OnDisable()
     {
         EnhancedTouch.TouchSimulation.Disable();
@@ -53,6 +50,6 @@ public class PlaceObject : MonoBehaviour
                 GameObject obj = Instantiate(prefab, pose.position, pose.rotation);
             }
         }
-        
+
     }
 }

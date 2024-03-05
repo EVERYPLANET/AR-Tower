@@ -123,7 +123,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets
                 m_ObjectSpawner = FindAnyObjectByType<ObjectSpawner>();
 #else
                 m_ObjectSpawner = FindObjectOfType<ObjectSpawner>();
-#endif    
+#endif
 
             m_ARInteractor = m_ARInteractorObject as IARInteractor;
             m_ARInteractorAsControllerInteractor = m_ARInteractorObject as XRBaseControllerInteractor;
