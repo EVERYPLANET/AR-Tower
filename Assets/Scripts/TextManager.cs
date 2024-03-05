@@ -44,6 +44,3 @@ public class TextManager : MonoBehaviour
     }
 }
 
-//Help return the bell to the top of the tower by clearing a path!
-//Drag the tower to rotate it or walk around to change your perspective!
-//Tap or Hold different blocks to interact. 

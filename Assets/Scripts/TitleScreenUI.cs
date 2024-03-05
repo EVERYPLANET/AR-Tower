@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TitleScreenUI : MonoBehaviour
 {
@@ -11,8 +12,7 @@ public class TitleScreenUI : MonoBehaviour
     public Vector2 spawnPosition;
     public float resetPosition;
     public float cloudSpeed;
-    public Color duskColor;
-    public Color dawnColor;
+    public string GameplaySceneName;
     
 
 
@@ -46,5 +46,10 @@ public class TitleScreenUI : MonoBehaviour
         }
     }
 
+    public void NextScene()
+    {
+        
+        SceneManager.LoadScene(GameplaySceneName);
+    }
 
 }
