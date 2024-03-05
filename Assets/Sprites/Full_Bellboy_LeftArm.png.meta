@@ -147,18 +147,40 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Full_Bellboy_LeftArm_0
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 458
+        width: 225
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffbe3a71497a304f818eed946c57097
+      internalID: 1645861606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2a925ead937f4e747a30a231356d97bc
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Full_Bellboy_LeftArm_0: 1645861606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

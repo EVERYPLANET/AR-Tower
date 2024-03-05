@@ -147,18 +147,40 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Full_Bellboy_Head_0
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 811
+        width: 207
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b269027f0c05e4ebc5653574b687dc
+      internalID: -1094856178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f9970f075a67f6145afc32d0dd40b5c4
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Full_Bellboy_Head_0: -1094856178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
